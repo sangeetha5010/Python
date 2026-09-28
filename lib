@@ -1,0 +1,46 @@
+'''import calculations as c
+c.add(2,3)
+
+c.sub(4,3)
+
+
+list=["sange","keer","yashu"]
+import random
+print(random.choice(list))  
+
+
+import math
+
+a=math.sqrt(81)
+print(a)
+
+result=math.factorial(6)
+
+print("Factorial of 6: ",result)
+
+r=math.pi*2
+print(r)
+
+
+from library import books
+books.list_books()
+
+from library import members
+members.list_members()
+
+
+
+import qrcode
+image=qrcode.make("Sangeetha")
+image.save("s_qr.png")
+print("QR code generated successfully")'''
+
+
+import qrcode
+image=qrcode.make("https://engineeringinkannada.in/")
+image.save("eik_qr.png")
+print("QR code generated successfully")
+
+
+
+
